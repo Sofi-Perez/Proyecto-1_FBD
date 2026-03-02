@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -145,5 +144,61 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idHotel" id="5BCAB0D8-36C6-0F83-82AF-FCDE301871AF">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:28:59 UTC</createdTime>
+<generatorID>C6BFCB09-F794-55F4-5C41-9A1266873973</generatorID>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<referedAttribute>A2E97B0A-B095-A552-4D46-ABAF2186D112</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idComodidad" id="EC8D9ADD-92F4-26AE-1E27-0645286AEF63">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:53:48 UTC</createdTime>
+<generatorID>3D93EC3F-665C-D9D5-6692-9C5937789398</generatorID>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<referedAttribute>F0BD1E08-452A-0444-7733-FD0681C62A75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idTipo" id="E38AE903-3016-0305-5791-8B7EB98491D8">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:57:55 UTC</createdTime>
+<generatorID>41584EF9-E0B1-0734-DE16-FDEA90C6F8AD</generatorID>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<referedAttribute>E64CD2DD-79B1-A5BC-3E1E-DE4A351C45B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="544BA5DE-C368-1D8B-942A-6E0560C118E5" name="Habitaciones PK">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:27:27 UTC</createdTime>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>53586FCC-00F9-D0BF-E9DD-4EE03D0B84AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

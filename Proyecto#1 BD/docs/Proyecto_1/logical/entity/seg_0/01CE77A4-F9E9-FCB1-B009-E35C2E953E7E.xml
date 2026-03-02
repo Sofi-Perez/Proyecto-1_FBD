@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -106,5 +105,33 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idHotel" id="F2D813E8-B28B-5595-81DB-F974D0AD4002">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:28:59 UTC</createdTime>
+<generatorID>050BE9D6-64CF-B43C-E83D-6EA5FDFDC179</generatorID>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<referedAttribute>A2E97B0A-B095-A552-4D46-ABAF2186D112</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3EE155AF-52FC-C400-CAE8-10C41E22CB3E" name="Cliente PK">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:29:18 UTC</createdTime>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C87F5E01-D11F-0A28-4760-815343E4E7BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -22,11 +22,24 @@
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F1AC713D-ED4A-2F5C-12D0-D4D376EE9C5D" name="Administradores PK">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:30:29 UTC</createdTime>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E453ED0F-5E16-57C2-9091-A6988D964886</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3FA6FF6B-5825-3C62-9D18-DA073E303947" name="Ciudad">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:15:57 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E6DBEDD-2881-151E-97E0-16EFCA898FC8" name="Comodidades">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:09:37 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idCiudad" id="70B0049A-73EE-060A-D0DB-ABC5A7236913">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:33:27 UTC</createdTime>
+<Attribute name="idComodidad" id="F0BD1E08-452A-0444-7733-FD0681C62A75">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:12:12 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
@@ -27,9 +27,22 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="57A9E539-BF6B-6F1B-96FE-6E3E7A620692">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:33:27 UTC</createdTime>
+<Attribute name="nombre" id="55E38825-08A8-0515-1E50-AF41F824352F">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:12:37 UTC</createdTime>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="375A2171-7104-F2AA-4BA3-E65E73A42C66">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:13:00 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
@@ -42,16 +55,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C7F05ED4-5821-2A08-E82C-F63CD70B23A8" name="Ciudad PK">
+<identifier id="0E6C5180-C65C-4B50-0FA8-E4988CDBC8D6" name="Comodidades PK">
 <createdBy>georg</createdBy>
-<createdTime>2026-03-02 00:30:01 UTC</createdTime>
+<createdTime>2026-03-02 00:27:54 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>70B0049A-73EE-060A-D0DB-ABC5A7236913</attributeRef>
+<attributeRef>F0BD1E08-452A-0444-7733-FD0681C62A75</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

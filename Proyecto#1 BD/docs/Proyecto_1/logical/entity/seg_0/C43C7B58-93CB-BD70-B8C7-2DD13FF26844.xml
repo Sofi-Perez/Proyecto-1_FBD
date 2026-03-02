@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -106,5 +105,33 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idReserva" id="DB7CD3FD-78D3-22F2-64A6-8690B89FA2FD">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:28:23 UTC</createdTime>
+<generatorID>CE6E0E16-5ED8-29CE-7711-19351C6EC527</generatorID>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<referedAttribute>E6F7F74A-F3E8-E9A2-0F62-2834F59EBE58</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95C089AC-C88F-B5DA-0741-5180E864FF20" name="Servicio PK">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:28:35 UTC</createdTime>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>013067C0-FD99-7DD5-1B4A-0FB6E9D51ADA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

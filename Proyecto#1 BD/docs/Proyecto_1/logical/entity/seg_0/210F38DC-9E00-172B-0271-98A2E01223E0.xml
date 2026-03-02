@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -93,5 +92,47 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idCiudad1" id="9E6025BC-9DCF-C702-4F98-D11D6C5FE3E9">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:30:03 UTC</createdTime>
+<generatorID>8C25D421-EC52-586C-F59C-143D6B15F192</generatorID>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<referedAttribute>70B0049A-73EE-060A-D0DB-ABC5A7236913</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAdministrador" id="F356C59D-296B-0B50-A140-117E3074F978">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:30:32 UTC</createdTime>
+<generatorID>C5E678EB-A202-70E8-68C3-31A60065731B</generatorID>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<referedAttribute>E453ED0F-5E16-57C2-9091-A6988D964886</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5904CB03-E1B2-0781-8141-616A9A30CA4C" name="Hotel PK">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:28:57 UTC</createdTime>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A2E97B0A-B095-A552-4D46-ABAF2186D112</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

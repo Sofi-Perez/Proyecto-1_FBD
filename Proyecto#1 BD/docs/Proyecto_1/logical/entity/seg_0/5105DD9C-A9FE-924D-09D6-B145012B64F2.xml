@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF8D8A9E-3A2B-2E09-F732-F0FF3C2BB97A" name="Reserva">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:56:38 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5105DD9C-A9FE-924D-09D6-B145012B64F2" name="Tipo">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:45:11 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idReserva" id="E6F7F74A-F3E8-E9A2-0F62-2834F59EBE58">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:56:45 UTC</createdTime>
+<Attribute name="idTipo" id="E64CD2DD-79B1-A5BC-3E1E-DE4A351C45B2">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:45:30 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
@@ -27,61 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="codigoConfirmacion" id="C48D9548-0AD8-3093-3893-7E1217F7B806">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:56:45 UTC</createdTime>
-<ownerDesignName>Proyecto_1</ownerDesignName>
-<engineerTo>
-<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fechaEntrada" id="397937E9-668E-FDCE-C16E-86E5D3941580">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:56:46 UTC</createdTime>
-<ownerDesignName>Proyecto_1</ownerDesignName>
-<engineerTo>
-<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fechaSalida" id="3C954E63-5086-B6B6-925E-459C6DD2C10F">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:56:46 UTC</createdTime>
-<ownerDesignName>Proyecto_1</ownerDesignName>
-<engineerTo>
-<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="precioTotal" id="731A6BE9-DFD6-8634-6060-768411B99D5E">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:56:46 UTC</createdTime>
-<ownerDesignName>Proyecto_1</ownerDesignName>
-<engineerTo>
-<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="estado" id="6E70B9C6-FE5E-E3C5-F77E-9E96B03EB9B4">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:56:46 UTC</createdTime>
+<Attribute name="nombre" id="A251DD10-6DB5-9FF2-6BBB-DB84ADC7CCDA">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:46:04 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
@@ -92,9 +40,9 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fechaCreacion" id="D79633DA-4559-D611-2D32-61733278C1CB">
-<createdBy>sofiaperez</createdBy>
-<createdTime>2026-02-26 02:56:47 UTC</createdTime>
+<Attribute name="nombreTeporadaAlta" id="6E83356F-8D66-F889-9A13-0EF7E0EB14A5">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:47:52 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
@@ -102,49 +50,86 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idHotel" id="C7392A1A-346B-EE1C-B35D-DAE121792E09">
+<Attribute name="costoTempBaja" id="0E04DF7E-D72B-0AFA-E5A8-DA53C2EE0FE2">
 <createdBy>georg</createdBy>
-<createdTime>2026-03-02 00:28:59 UTC</createdTime>
-<generatorID>C35DC3FA-02F5-C404-1D35-0A90A8A387EC</generatorID>
+<createdTime>2026-03-02 00:48:55 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
 </engineerTo>
-<referedAttribute>A2E97B0A-B095-A552-4D46-ABAF2186D112</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idCliente" id="5CFFA0E9-163F-305A-AFA2-435120CCD383">
+<Attribute name="dimension" id="FCAF23D4-5442-0B13-8581-2E69E04E0CEC">
 <createdBy>georg</createdBy>
-<createdTime>2026-03-02 00:29:20 UTC</createdTime>
-<generatorID>578E77BD-F28C-CBC7-0705-39AA117CE5AC</generatorID>
+<createdTime>2026-03-02 00:49:30 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
 </engineerTo>
-<referedAttribute>C87F5E01-D11F-0A28-4760-815343E4E7BB</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoCama" id="D1ACFE4F-C858-7ED4-C794-B85661FD9DF3">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:50:01 UTC</createdTime>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidadCamas" id="1E59B1C7-3EB9-1FC8-FC4C-1DDF5F9F683A">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:50:49 UTC</createdTime>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoVista" id="DACD7A23-A313-1A5B-BA90-76E9684B6EB1">
+<createdBy>georg</createdBy>
+<createdTime>2026-03-02 00:51:51 UTC</createdTime>
+<ownerDesignName>Proyecto_1</ownerDesignName>
+<engineerTo>
+<item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FFA9EAB0-937B-C90E-AD83-4F71C790CF70" name="Reserva PK">
+<identifier id="45BB418D-C41B-965C-0071-37F5317366A1" name="Tipo PK">
 <createdBy>georg</createdBy>
-<createdTime>2026-03-02 00:28:21 UTC</createdTime>
+<createdTime>2026-03-02 00:57:54 UTC</createdTime>
 <ownerDesignName>Proyecto_1</ownerDesignName>
 <engineerTo>
 <item key="B678D3C3-865E-159A-5D80-AF2FC514EE77" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E6F7F74A-F3E8-E9A2-0F62-2834F59EBE58</attributeRef>
+<attributeRef>E64CD2DD-79B1-A5BC-3E1E-DE4A351C45B2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
